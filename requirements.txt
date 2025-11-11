@@ -1,0 +1,4 @@
+zensical
+pymdown-extensions
+mkdocs-md-preview
+mkdocs-static-i18n

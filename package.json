@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "autocorrect-node": "^2.14.0",
+    "markdownlint": "^0.39.0",
+    "mkdocs": "^0.0.1"
+  }
+}

@@ -1,0 +1,84 @@
+site_name: Rust for QEMU Insides
+site_author: HUST Open Atom Club
+site_url: https://oss.openatom.club/
+repo_name: hust-open-atom-club/rust-for-qemu-insides
+repo_url: https://github.com/hust-open-atom-club/rust-for-qemu-insides
+copyright: Brought to you by <a href="https://hust.openatom.club/">HUST Open Atom Club</a>. Available freely under the MIT license.
+
+plugins:
+  - md-preview:
+      enable: true
+      left_title: "Markdown 源码"
+      right_title: "渲染输出"
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - markdown.extensions.def_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.extra
+  - pymdownx.inlinehilite
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - includes/man.md
+        - includes/authors.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+theme:
+  language: zh
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to happy mode
+      accent: pink
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: blue grey
+      accent: pink
+
+  features:
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - navigation.tabs
+    - content.comments
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+  
+nav:
+  - 主页: index.md
