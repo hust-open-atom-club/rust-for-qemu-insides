@@ -1,9 +1,12 @@
-name: Documentation
+name: Deploy Documentation Page
 on:
   push:
     branches:
       - master
       - main
+  pull_request:
+    branches:
+      - '*'
 permissions:
   contents: read
   pages: write
