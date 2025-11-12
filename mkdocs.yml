@@ -82,3 +82,6 @@ theme:
   
 nav:
   - 主页: index.md
+  - 文档: articles/index.md
+  - 博客: blogs/index.md
+  - 新闻: news/index.md
