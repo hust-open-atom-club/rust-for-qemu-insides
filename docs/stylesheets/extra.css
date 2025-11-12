@@ -1,0 +1,5 @@
+/* 全局段落两端对齐 */
+article p {
+  text-align: justify;
+  text-justify: inter-word;
+}

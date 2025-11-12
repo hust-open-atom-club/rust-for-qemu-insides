@@ -18,7 +18,7 @@ Rust for QEMU Insides 是华中科技大学开放原子开源俱乐部发起的�
 ​
 - 文档补充：完善 QEMU 某模块的原理解析、补充 Rust 实践案例。​
 
-- 代码优化：改进示例代码性能、修复 Bug、新增实用工具。​
+- 代码优化：改进示例代码、修复 Bug、新增实用工具。​
 
 - 需求反馈：通过 Issue 提出文档漏洞、功能需求。
 
@@ -32,18 +32,10 @@ Rust for QEMU Insides 是华中科技大学开放原子开源俱乐部发起的�
 
 - 社群支持：[华科开放原子开源俱乐部 QQ 群](https://qm.qq.com/q/2uEd11lkWk)
 
-- 俱乐部官网：https://hust.openatom.club/
+- 俱乐部官网：[HUST OpenAtom Open Source Club](https://hust.openatom.club/)
 
 ## 许可证​
 
 - 文档部分（docs/ 目录）：采用 CC BY-SA 4.0 国际许可证（可共享、修改，需注明出处且以相同许可证分发）。​
 
 - 代码部分（examples/、scripts/ 目录）：采用 MIT 许可证（可自由使用、修改、分发，需保留版权声明）。​
-
-## 致谢​
-
-- 感谢 QEMU 开源社区提供的虚拟化技术基础与文档支持。​
-
-- 感谢 Rust 社区为内存安全编程提供的技术生态。​
-
-- 感谢华中科技大学对开源俱乐部对本项目的指导与支持。
