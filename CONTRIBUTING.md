@@ -133,9 +133,8 @@
 格式如下，不同作者名字之间用中文全角顿号（「、」）分隔：
 
 ```markdown
-!!! note "主要作者"
-
-    [@example][github.com/example]、[@new-contributor][github.com/new-contributor]
+!!! note "主要贡献者"
+   - 作者：[@example][github.com/example]、[@new-contributor][github.com/new-contributor]
 ```
 
 ### 3. 为图片添加配字

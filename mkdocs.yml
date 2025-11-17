@@ -82,7 +82,11 @@ extra_css:
 
 nav:
   - 主页: index.md
-  - 文档: articles/index.md
+  - 文档:
+    - 零、基础入门与环境搭建:
+      - 01 Rust for QEMU 概述: articles/ch0/01-rust-for-qemu-introduction.md
+      - 02 开发环境搭建与调试: articles/ch0/02-compile-and-debug.md
+      - 03 从零建模 Rust 设备: articles/ch0/03-simulate-rust-model-from-zero.md
   - 博客: blogs/index.md
   - 新闻:
     - 2025:

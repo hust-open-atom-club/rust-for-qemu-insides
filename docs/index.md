@@ -4,6 +4,8 @@ Rust for QEMU Insides 是华中科技大学开放原子开源俱乐部发起的�
 
 无论是虚拟化领域初学者、Rust 技术实践者，还是开源爱好者，都能从本项目中获取 QEMU 底层原理的清晰解读与 Rust 落地实践的参考案例。
 
+点击我开始正式的阅读 [Rust for QEMU 文档][docs]。
+
 !!! example "项目背景"
 
     - QEMU 的技术价值：QEMU 是开源虚拟化领域的核心工具，支持多架构硬件模拟、全系统虚拟化，但其核心代码基于 C 语言开发，存在内存安全、并发控制等工程挑战。​
@@ -39,4 +41,5 @@ Rust for QEMU Insides 是华中科技大学开放原子开源俱乐部发起的�
     - 文档部分（docs/ 目录）：采用 CC BY-SA 4.0 国际许可证（可共享、修改，需注明出处且以相同许可证分发）。​
     - 代码部分（examples/、scripts/ 目录）：采用 MIT 许可证（可自由使用、修改、分发，需保留版权声明）。​
 
+[docs]: articles/ch0/01-rust-for-qemu-introduction.md
 [contributing]: https://github.com/hust-open-atom-club/rust-for-qemu-insides/blob/main/CONTRIBUTING.md

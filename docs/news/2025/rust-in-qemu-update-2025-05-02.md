@@ -1,6 +1,6 @@
 # 2025 年 5 月 QEMU 中的 Rust 更新
 
-!!! note "主要作者"
+!!! note "主要贡献者"
     
     - 原文链接：[Rust in QEMU update, April 2025](https://lore.kernel.org/qemu-rust/d3d1944e-2482-4aa7-b621-596246a08107@gnu.org/)
     - 翻译：[@zevorn](https://github.com/zevorn)

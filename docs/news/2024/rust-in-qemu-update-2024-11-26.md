@@ -1,6 +1,6 @@
 # 2024 年 11 月 QEMU 中的 Rust 更新
 
-!!! note "主要作者"
+!!! note "主要贡献者"
     
     - 原文链接：[Rust in QEMU roadmap](https://lore.kernel.org/qemu-rust/cc40943e-dec1-4890-a1d9-579350ce296f@pbonzini.local/)
     - 翻译：[@zevorn](https://github.com/zevorn)
