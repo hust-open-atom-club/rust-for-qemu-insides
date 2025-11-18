@@ -5,7 +5,7 @@
 
 ## 技术演进历史
 
-关于 Rust for QEMU（官方称 Rust in QEMU）的发展历史，最早可以追溯到 2020 年。彼时 QEMU 社区的维护者 Stefan Hajnoczi 发表了一篇名为 [Why QEMU should move from C to Rust][1] 的文章，系统地阐述了 QEMU 的安全需求，引起社区广泛响应，由此进入构想与社区讨论阶段。
+关于 Rust for QEMU（官方称 Rust in QEMU）的发展历史，最早可以追溯到 2020 年。彼时 QEMU 社区的维护者 Stefan Hajnoczi 发表了一篇名为 [Why QEMU should move from C to Rust][1] 的文章，系统地阐述了 QEMU 的安全需求，获得了社区的广泛关注，由此进入构想与社区讨论阶段。
 
 2021 年 KVM Forum 2021 [针对 Rust 展开专题讨论][2]，聚焦具体的技术路径和核心挑战。此后，Rust for QEMU 开始在 QEMU 主线外进行早期开发。
 
